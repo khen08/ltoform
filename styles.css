@@ -1,0 +1,81 @@
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
+p {
+  margin: 0px;
+}
+
+.header {
+  background-color: rgb(0, 51, 102);
+  color: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container {
+  margin-top: 80px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-style: solid;
+}
+
+input {
+  text-transform: uppercase;
+}
+
+input#tin::-webkit-outer-spin-button,
+input#tin::-webkit-inner-spin-button,
+input#height::-webkit-outer-spin-button,
+input#height::-webkit-inner-spin-button,
+input#zip::-webkit-outer-spin-button,
+input#zip::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input#tin[type=number],
+input#height[type=number],
+input#zip[type=number] {
+  -moz-appearance: textfield;
+}
+
+input#height,
+input#weight {
+  width: 50px;
+}
+
+input#zip {
+  width: 70px;
+}
+
+select:invalid {
+ color: gray;
+}
+
+#city {
+  width: 150px;
+}
+
+#hair-others {
+  width: 60px;
+}
+
+input#dsa {
+  width: 200px;
+}
+
+.title {
+  font-weight: bold;
+}
