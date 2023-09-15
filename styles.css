@@ -7,6 +7,11 @@ p {
   margin: 0px;
 }
 
+form {
+  border-style: solid;
+  border-width: 2px;
+}
+
 .header {
   background-color: rgb(0, 51, 102);
   color: white;
@@ -24,11 +29,16 @@ p {
 }
 
 .container {
-  margin-top: 80px;
+  margin-top: 50px;
   padding-top: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.user-data, .application-details, .user-bio, .work-data {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 input {
@@ -43,12 +53,6 @@ input#zip::-webkit-outer-spin-button,
 input#zip::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
-}
-
-input#tin[type=number],
-input#height[type=number],
-input#zip[type=number] {
-  -moz-appearance: textfield;
 }
 
 input#height,
@@ -68,7 +72,7 @@ select:invalid {
   width: 150px;
 }
 
-#hair-others {
+#HAIR {
   width: 60px;
 }
 
@@ -96,7 +100,7 @@ h2 {
 }
 
 .footer {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   border-style: solid;
   border-width: 2px;
 }
@@ -109,12 +113,13 @@ h2 {
 
 .submit-button {
   font-size: 30px;
+  font-weight: bold;
   font-family: 'Rubik', sans-serif;
-  margin-bottom: 50px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 25px;
-  padding-right: 25px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
   border-radius: 15px;
   border-style: none;
   cursor: pointer;
@@ -127,5 +132,5 @@ h2 {
 }
 
 form {
-  width: 60%;
+  width: 65%;
 }
