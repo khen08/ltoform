@@ -1,5 +1,6 @@
 body {
   font-family: 'Rubik', sans-serif;
+  background-color: white;
 }
 
 p {
@@ -28,7 +29,6 @@ p {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-style: solid;
 }
 
 input {
@@ -78,4 +78,54 @@ input#dsa {
 
 .title {
   font-weight: bold;
+}
+
+.hr-top {
+  border-style: solid;
+  border-width: 2px;
+}
+
+.hr-bottom {
+  border-style: solid;
+  border-width: 1px;
+}
+
+h2 {
+  text-align: center;
+  margin: 0px;
+}
+
+.footer {
+  margin-bottom: 50px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.button-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.submit-button {
+  font-size: 30px;
+  font-family: 'Rubik', sans-serif;
+  margin-bottom: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 15px;
+  border-style: none;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.submit-button:hover {
+  background-color: black;
+  color: white;
+}
+
+form {
+  width: 60%;
 }
