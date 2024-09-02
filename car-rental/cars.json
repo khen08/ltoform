@@ -1,0 +1,37 @@
+{
+  "Hyper": [
+    {"model": "Chiron", "year": 2022},
+    {"model": "Speedtail", "year": 2020},
+    {"model": "918", "year": 2015},
+    {"model": "SF90 Stradale", "year": 2022}
+  ],
+  "Super": [
+    {"model": "488 GTB", "year": 2016},
+    {"model": "Huracan", "year": 2015},
+    {"model": "720S", "year": 2020},
+    {"model": "R8", "year": 2008},
+    {"model": "911", "year": 2017},
+    {"model": "GT", "year": 2005},
+    {"model": "Vantage", "year": 2010},
+    {"model": "Corvette Z06", "year": 2023},
+    {"model": "AMG GT R", "year": 2013}
+  ],
+  "Sports": [
+    {"model": "Camaro", "year": 2014},
+    {"model": "Mustang", "year": 2022},
+    {"model": "F-Type", "year": 2014},
+    {"model": "M3", "year": 2020},
+    {"model": "TT", "year": 2021},
+    {"model": "Exige", "year": 2007},
+    {"model": "Agera Rs", "year": 2018},
+    {"model": "370Z", "year": 2020}
+  ],
+  "IconicJDM": [
+    {"model": "Supra", "year": 1994},
+    {"model": "NSX", "year": 1994},
+    {"model": "RX-7", "year": 1994},
+    {"model": "Lancer Evolution", "year": 2003},
+    {"model": "MX-5 Miata", "year": 1994},
+    {"model": "S2000", "year": 2000}
+  ]
+}
