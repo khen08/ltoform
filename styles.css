@@ -36,13 +36,12 @@ form {
   align-items: center;
 }
 
-.user-data, .application-details, .user-bio, .work-data {
+.user-data,
+.application-details,
+.user-bio,
+.work-data {
   margin-left: 10px;
   margin-right: 10px;
-}
-
-input {
-  text-transform: uppercase;
 }
 
 input#tin::-webkit-outer-spin-button,
@@ -51,8 +50,8 @@ input#height::-webkit-outer-spin-button,
 input#height::-webkit-inner-spin-button,
 input#zip::-webkit-outer-spin-button,
 input#zip::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 input#height,
@@ -65,7 +64,7 @@ input#zip {
 }
 
 select:invalid {
- color: gray;
+  color: gray;
 }
 
 #city {
@@ -100,27 +99,18 @@ h2 {
 }
 
 .footer {
-  margin-bottom: 120px;
+  margin-bottom: 30px;
   border-style: solid;
   border-width: 2px;
 }
 
 .button-container {
   display: flex;
-  justify-content: center;
-  position: absolute;
-  right: 400px;
-  bottom: -1133px;
+  justify-content: space-evenly;
 }
 
-.button-container1 {
-  display: flex;
-  position: absolute;
-  bottom: -1133px;
-  left: 400px;
-}
-
-.submit-button, .clear-button {
+.submit-button,
+.clear-button {
   font-size: 30px;
   font-weight: bold;
   font-family: 'Rubik', sans-serif;
@@ -135,11 +125,16 @@ h2 {
   transition: background-color 0.15s, color 0.15s;
 }
 
-.submit-button:hover, .clear-button:hover {
+.submit-button:hover,
+.clear-button:hover {
   background-color: black;
   color: white;
 }
 
 form {
   width: 65%;
+}
+
+.return-button {
+  margin-top: 500px;
 }
